@@ -29,3 +29,6 @@ variable "asg_desired_capacity" {
   type    = number
   default = 4
 }
+variable "bucket_name" {
+  default = "vascomaior"  # SUBSTITUA
+}
